@@ -54,7 +54,11 @@ nav {
   display: flex;
   padding: 100px 0px;
 }
+.para{
+  display: flex;
+  flex-direction: column;
 
+}
 .banner-1para {
   font-weight: bolder;
   font-size: 60px;
@@ -65,4 +69,24 @@ nav {
   font-size: 25px;
   font-family: Inter;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner2-1para{
+
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: Noto Serif;
+}
+.banner2-2para{
+   font-size: 25px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
