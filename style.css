@@ -75,6 +75,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 100px;
 }
 
 .banner2-1para {
@@ -89,18 +90,14 @@ nav {
   text-align: center;
 }
 
-.Cart-section{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-gap: 20px;
-padding: 50px 0px;
-
+.Cart-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px 0px;
 }
 
-
-
-.Cart{
-
+.Cart {
   height: 100%;
   width: 100%;
   display: flex;
@@ -108,31 +105,92 @@ padding: 50px 0px;
   margin: 20px;
 }
 
-
-
-
-.Cart-name{
+.Cart-name {
   font-family: Inter;
   font-size: 22px;
   color: rgb(17, 17, 17);
   text-align: center;
 }
 
-
-
-.item-price{
-    font-family: Inter;
+.item-price {
+  font-family: Inter;
   font-size: 22px;
   color: rgb(17, 17, 17);
   text-align: center;
 }
 
+.Cart button {
+  color: white;
+  height: 30px;
+  background-color: chocolate;
+  text-align: center;
+  box-sizing: border-box;
+  border-style: none;
+}
 
-.Cart button{
-color: white;
-height: 30px;
-background-color: chocolate;
-text-align: center;
-box-sizing: border-box;
-border-style: none;
+.banner-3 {
+  display: flex;
+  padding: 100px 0px;
+}
+.banner3-img {
+  display: flex;
+}
+
+.banner3-img1 {
+  z-index: 1;
+}
+
+.banner3-img2 {
+  height: 200px;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner3-para {
+  padding-left: 10px;
+  gap: 30px;
+}
+
+.banner3-para p {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.banner3-para ul {
+  padding-top: 40px;
+}
+
+.banner3-para ul li {
+  color: #000;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.banner-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.banner4-1para {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: Noto Serif;
+}
+.banner4-2para {
+  font-size: 25px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.banner-5 {
+  display: flex;
+  grid-template-columns: repeat();
 }
