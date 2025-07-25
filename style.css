@@ -337,3 +337,56 @@ footer ul li a {
 .footer-icon a {
   padding: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .nav-list a {
+    visibility: hidden;
+  }
+
+  .cart-icon a {
+    visibility: visible;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .Cart-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 50px 0px;
+  }
+
+  .banner-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner3-img1 {
+    visibility: hidden;
+  }
+
+  .banner-5 {
+    flex-direction: column;
+  }
+
+  .banner5-3card {
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+  }
+
+  .banner5-3card p {
+    padding-bottom: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: start;
+  }
+}
