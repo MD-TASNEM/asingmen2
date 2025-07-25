@@ -192,5 +192,119 @@ nav {
 
 .banner-5 {
   display: flex;
-  grid-template-columns: repeat();
+  gap: 20px;
+  padding: 100px 0px;
+}
+
+.banner-5 a {
+  color: white;
+}
+
+.banner5-2imag {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner5-1card {
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  color: white;
+  padding: 66px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/deal-bloom.png);
+  background-size: 500px;
+}
+.banner5-2card {
+  text-align: center;
+  font-size: 40px;
+  padding: 66px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/deal-ana.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+.banner5-3card {
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  padding: 90px 210px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+}
+
+.last-banner {
+  background-image: url(assets/news-letter-bg.png);
+  padding: 100px;
+}
+
+.last-banner p {
+  font-size: 80px;
+  text-align: center;
+  padding: 20px;
+}
+.last-banner-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-banner-input input {
+  size: 50px;
+  padding: 20px 600px 20px 10px;
+}
+
+.last-banner-input button {
+  padding: 20px 40px;
+  background: rgb(233, 90, 8);
+  border-style: none;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.footer-p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+}
+
+footer ul li a {
+  gap: 20px;
+}
+
+.footer-pages a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-pages ul li {
+  list-style: none;
+  padding: 10px;
+  font-family: Inter;
+}
+
+.footer-polici a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-polici ul li {
+  list-style: none;
+  padding: 10px;
+  font-family: Inter;
+}
+
+.footer-icon a {
+  padding: 10px;
 }
