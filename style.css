@@ -41,6 +41,8 @@ nav {
   color: black;
 }
 
+/* hiro section */
+
 .nlist-div {
   display: flex;
   color: rgb(137, 135, 161);
@@ -78,6 +80,8 @@ nav {
   padding: 100px;
 }
 
+/* banner 2 section */
+
 .banner2-1para {
   font-weight: bolder;
   font-size: 60px;
@@ -89,6 +93,7 @@ nav {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+/* cart section */
 
 .Cart-section {
   display: grid;
@@ -127,6 +132,8 @@ nav {
   box-sizing: border-box;
   border-style: none;
 }
+
+/* banner 3 section */
 
 .banner-3 {
   display: flex;
@@ -170,6 +177,8 @@ nav {
   padding-top: 20px;
 }
 
+/* banner 4 section */
+
 .banner-4 {
   display: flex;
   flex-direction: column;
@@ -189,6 +198,8 @@ nav {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+/* banner 5 section */
 
 .banner-5 {
   display: flex;
@@ -239,6 +250,8 @@ nav {
   background-size: 1000px;
 }
 
+/* banner 6/last section */
+
 .last-banner {
   background-image: url(assets/news-letter-bg.png);
   padding: 100px;
@@ -266,6 +279,8 @@ nav {
   border-style: none;
   color: white;
 }
+
+/* footer section */
 
 footer {
   display: flex;
