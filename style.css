@@ -169,7 +169,7 @@ nav {
 }
 
 .banner3-para ul {
-  padding-top: 40px;
+  padding: 10px 45px;
 }
 
 .banner3-para ul li {
@@ -296,7 +296,7 @@ nav {
 
 footer {
   max-width: 1280px;
-  align-items: center;
+  padding-top: 50px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -338,7 +338,7 @@ footer ul li a {
   padding: 10px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
   .nav-list a {
     visibility: hidden;
   }
@@ -350,12 +350,97 @@ footer ul li a {
   .banner {
     flex-direction: column-reverse;
   }
+  .banner-1para {
+  font-weight: bolder;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.banner-2para {
+  font-size: 20px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-2 {
+  padding: 20px;
+}
+
+.banner2-1para {
+  font-weight: bolder;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.banner2-2para {
+  font-size: 15px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
 
   .Cart-section {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 50px 0px;
+    gap: 5px;
   }
+
+  .Cart {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner3-para p {
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.banner3-para ul {
+padding: 10px 40px;
+}
+
+.banner3-para ul li {
+  color: #000;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .banner-3 {
     display: flex;
@@ -366,9 +451,57 @@ footer ul li a {
     visibility: hidden;
   }
 
+
+
+
+.banner-4 {
+  padding: 10px;
+}
+
+
+
+.banner4-1para {
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.banner4-2para {
+  font-size: 15px;
+  font-family: Inter;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+
+
+
+
+
   .banner-5 {
     flex-direction: column;
+    padding: 20px;
   }
+
+
+
+
+
+    .banner5-1card{
+      background-size: 900px;
+    }
+    .banner5-2card{
+      background-size: 900px;
+    }
+
+
+
+
+
+
+
+
+
+
 
   .banner5-3card {
     text-align: center;
@@ -378,15 +511,61 @@ footer ul li a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(assets/deal-zabo.png);
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 900px;
   }
+
+
+
+
 
   .banner5-3card p {
     padding-bottom: 20px;
   }
 
+
+
+
+
+
+
+
+.last-banner {
+  background-image: url(/assets/news-letter-bg.png);
+  padding: 100px;
+}
+
+.last-banner p {
+  font-size: 40px;
+}
+
+.last-banner-input {
+
+}
+
+.last-banner-input input {
+size: px;
+padding: 20px;
+}
+
+.last-banner-input button {
+  padding: 21px 30px;
+  background: rgb(233, 90, 8);
+  border-style: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
   footer {
     flex-direction: column;
     align-items: start;
+
   }
+
+
 }
