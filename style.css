@@ -226,7 +226,7 @@ nav {
   padding: 60px;
   border-radius: 20px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(assets/deal-bloom.png);
+    url("./assets/deal-bloom.png");
   background-size: 500px;
 }
 
@@ -240,7 +240,7 @@ nav {
   padding: 60px;
   border-radius: 20px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(assets/deal-ana.png);
+    url("./assets/deal-ana.png");
   background-repeat: no-repeat;
   background-size: 500px;
 }
@@ -265,7 +265,7 @@ nav {
 /* banner 6/last section */
 
 .last-banner {
-  background-image: url(/assets/news-letter-bg.png);
+  background-image: url("./assets/news-letter-bg.png");
   padding: 100px;
 }
 
@@ -454,7 +454,7 @@ footer ul li a {
     padding: 60px;
     border-radius: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(assets/deal-zabo.png);
+      url("./assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: 900px;
   }
@@ -464,7 +464,7 @@ footer ul li a {
   }
 
   .last-banner {
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url("./assets/news-letter-bg.png");
     padding: 100px;
   }
 
