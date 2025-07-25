@@ -52,6 +52,10 @@ nav {
   justify-content: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* hiro section */
 
 .banner {
@@ -227,7 +231,7 @@ nav {
   border-radius: 20px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/deal-bloom.png");
-  background-size: 500px;
+  background-size: cover;
 }
 
 .banner5-1card p {
@@ -242,7 +246,7 @@ nav {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/deal-ana.png");
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: cover;
 }
 
 .banner5-2card p {
@@ -259,7 +263,7 @@ nav {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(assets/deal-zabo.png);
   background-repeat: no-repeat;
-  background-size: 1000px;
+  background-size: cover;
 }
 
 /* banner 6/last section */
@@ -338,23 +342,30 @@ footer ul li a {
   padding: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 767.98px) {
+
+    body {
+    overflow-x: hidden;
+  }
+
   .nav-list a {
-    visibility: hidden;
+    display: none;
     font-size: smaller;
   }
+
 
   .first-flower {
     height: auto;
   }
 
   .cart-icon a {
-    visibility: visible;
+    display: ruby;
   }
 
   .banner {
     flex-direction: column-reverse;
   }
+
   .banner-1para {
     font-weight: bolder;
     font-size: 40px;
@@ -442,10 +453,10 @@ footer ul li a {
   }
 
   .banner5-1card {
-    background-size: 900px;
+    background-size: cover;
   }
   .banner5-2card {
-    background-size: 900px;
+    background-size: cover;
   }
 
   .banner5-3card {
@@ -456,7 +467,7 @@ footer ul li a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("./assets/deal-zabo.png");
     background-repeat: no-repeat;
-    background-size: 900px;
+    background-size: cover;
   }
 
   .banner5-3card p {
